@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="enacikYesil">#77ECA1</color>
+    <color name="acikyesil">#23D665</color>
+    <color name="yesil">#1B5E20</color>
+
+    <color name="enacikMavi">#83AAE8</color>
+    <color name="acikmavi">#3F8BC8</color>
+    <color name="mavi">#2033F1</color>
+
+    <color name="nude">#B9F6CA</color>
+    <color name="nudee">#D58A84</color>
+    <color name="nudeee">#FF8A80</color>
+
+    <color name="toplamaYazi">#827717</color>
+
+    <color name="carpmaYazi">#079992</color>
+
+    <color name="freebutton">#E49EB6</color>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/advent_pro_medium</item>
+        <item>@font/annie_use_your_telescope</item>
+        <item>@font/antic</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bungee</item>
+        <item>@font/cabin_sketch</item>
+        <item>@font/cherry_cream_soda</item>
+        <item>@font/cherry_swash</item>
+        <item>@font/coming_soon</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/freckle_face</item>
+        <item>@font/the_girl_next_door</item>
+        <item>@font/underdog</item>
+    </array>
+</resources>

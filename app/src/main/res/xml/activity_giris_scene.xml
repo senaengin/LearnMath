@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:motion="http://schemas.android.com/apk/res-auto">
+
+    <Transition
+        motion:constraintSetEnd="@+id/end"
+        motion:constraintSetStart="@id/start"
+        motion:duration="1000">
+       <KeyFrameSet>
+       </KeyFrameSet>
+    </Transition>
+
+    <ConstraintSet android:id="@+id/start">
+        <Constraint
+            android:layout_height="70dp"
+            android:layout_width="70dp"
+            android:id="@+id/divideView"
+            motion:layout_constraintTop_toBottomOf="@+id/crossView"
+            android:layout_marginTop="44dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.046"
+            motion:layout_constraintEnd_toStartOf="@+id/divideButto" />
+        <Constraint
+            android:layout_height="45dp"
+            android:layout_width="260dp"
+            android:id="@+id/button5"
+            android:layout_marginTop="70dp"
+            motion:layout_constraintTop_toBottomOf="@+id/button4"
+            motion:layout_constraintStart_toEndOf="@+id/divideView"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            motion:layout_constraintHorizontal_bias="0.937"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_constraintVertical_bias="0.011" />
+        <Constraint
+            android:layout_height="70dp"
+            android:layout_marginTop="44dp"
+            motion:layout_constraintHorizontal_bias="1.0"
+            android:layout_width="70dp"
+            motion:layout_constraintTop_toBottomOf="@+id/minusView"
+            motion:layout_constraintEnd_toStartOf="@+id/button4"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="10dp"
+            motion:layout_constraintHorizontal_chainStyle="spread"
+            android:id="@+id/crossView" />
+        <Constraint
+            android:layout_marginEnd="12dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="260dp"
+            motion:layout_constraintTop_toBottomOf="@+id/button3"
+            motion:layout_constraintStart_toEndOf="@+id/crossView"
+            android:id="@+id/button4"
+            motion:layout_constraintVertical_bias="0.576"
+            motion:layout_constraintBottom_toBottomOf="@+id/crossView" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toEndOf="@+id/minusView"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            motion:layout_constraintBottom_toBottomOf="@+id/minusView"
+            motion:layout_constraintVertical_bias="0.409"
+            android:layout_marginEnd="12dp"
+            motion:layout_constraintTop_toBottomOf="@+id/plusButton"
+            android:layout_marginTop="60dp"
+            android:id="@+id/button3" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toEndOf="@+id/plusView"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            motion:layout_constraintBottom_toBottomOf="@+id/plusView"
+            motion:layout_constraintVertical_bias="0.0"
+            android:layout_marginEnd="16dp"
+            motion:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="70dp"
+            android:id="@+id/plusButton" />
+        <Constraint
+            motion:layout_constraintEnd_toStartOf="@+id/plusButton"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            motion:layout_constraintHorizontal_bias="1.0"
+            motion:layout_constraintTop_toTopOf="parent"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="60dp"
+            android:id="@+id/plusView" />
+        <Constraint
+            android:id="@+id/minusView"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="10dp"
+            motion:layout_constraintVertical_chainStyle="spread"
+            motion:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="44dp"
+            motion:layout_constraintEnd_toStartOf="@+id/button3"
+            motion:layout_constraintTop_toBottomOf="@+id/plusView"
+            motion:layout_constraintHorizontal_bias="1.0" />
+        <Constraint
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="184dp"
+            android:layout_width="260dp"
+            motion:layout_constraintTop_toBottomOf="@+id/button4"
+            motion:layout_constraintVertical_bias="0.029"
+            motion:layout_constraintStart_toEndOf="@+id/divideView"
+            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
+            android:id="@+id/divideButton" />
+        <Constraint
+            android:layout_marginEnd="12dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            motion:layout_constraintBottom_toBottomOf="@+id/crossView"
+            android:layout_marginBottom="12dp"
+            motion:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="260dp"
+            motion:layout_constraintTop_toBottomOf="@+id/button3"
+            motion:layout_constraintVertical_bias="0.576"
+            motion:layout_constraintStart_toEndOf="@+id/crossView"
+            android:id="@+id/crossButton" />
+        <Constraint
+            android:layout_height="45dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginBottom="184dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="260dp"
+            motion:layout_constraintTop_toBottomOf="@+id/button4"
+            motion:layout_constraintVertical_bias="0.029"
+            motion:layout_constraintStart_toEndOf="@+id/divideView"
+            android:id="@+id/divideButto"
+            motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintStart_toEndOf="@+id/minusView"
+            android:layout_width="260dp"
+            android:layout_height="45dp"
+            motion:layout_constraintBottom_toBottomOf="@+id/minusView"
+            motion:layout_constraintVertical_bias="0.409"
+            android:layout_marginEnd="12dp"
+            motion:layout_constraintTop_toBottomOf="@+id/plusButton"
+            android:layout_marginTop="60dp"
+            android:id="@+id/minusButton" />
+        <Constraint
+            android:layout_width="258dp"
+            android:layout_height="54dp"
+            android:id="@+id/button7"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="16dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint
+            android:layout_height="41dp"
+            android:layout_marginBottom="16dp"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            android:layout_width="189dp"
+            android:id="@+id/oyunButton"
+            motion:layout_editor_absoluteY="583dp"
+            motion:layout_constraintStart_toStartOf="parent"
+            motion:layout_constraintEnd_toEndOf="parent" />
+        <Constraint
+            android:layout_height="125dp"
+            android:layout_width="108dp"
+            android:id="@+id/imageView9"
+            motion:layout_constraintEnd_toEndOf="parent"
+            motion:layout_constraintBottom_toBottomOf="parent"
+            motion:layout_editor_absoluteX="252dp"
+            motion:layout_editor_absoluteY="515dp" />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+    </ConstraintSet>
+</MotionScene>
